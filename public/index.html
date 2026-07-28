@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meepa Jumma Mosque Boarding</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="brand">
+      <svg viewBox="0 0 24 24"><path d="M12 2 C7 6 6 10 6 14 A6 6 0 0 0 18 14 C18 10 17 6 12 2 Z" fill="none" stroke="#1e3a5f" stroke-width="1.4"/><line x1="3" y1="20" x2="21" y2="20" stroke="#1e3a5f" stroke-width="1.4"/></svg>
+      Meepa Jumma Boarding
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#apply">Apply</a></li>
+    </ul>
+    <a href="#apply" class="nav-cta">Book a room</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <span class="hero-eyebrow">Meepa Jumma Mosque Boarding</span>
+    <h1>A quiet place to stay, steps from the mosque</h1>
+    <p class="lead">Clean, affordable boarding for students and workers, built around the rhythm of the five daily prayers. Apply below and our admin team will contact you.</p>
+    <div class="hero-ctas">
+      <a href="#apply" class="btn btn-primary">Apply for boarding</a>
+      <a href="#rooms" class="btn btn-outline">View rooms &amp; pricing</a>
+    </div>
+  </div>
+</header>
+
+<div class="arch-divider">
+  <svg viewBox="0 0 120 46"><path d="M4 46 V22 C4 8 116 8 116 22 V46" /></svg>
+</div>
+
+<section class="features" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">Why stay here</span>
+      <h2>Built for a simple, focused routine</h2>
+      <p>Everything is arranged around comfort, cleanliness, and being close to the mosque for every prayer.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card reveal">
+        <span class="num">01</span>
+        <h3>Two minutes from the mosque</h3>
+        <p>Walk to Jumma prayers without rushing. No transport needed, rain or shine.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="num">02</span>
+        <h3>Simple, fixed monthly rent</h3>
+        <p>One flat monthly fee per room, no hidden charges. Pay in person or transfer &mdash; we track it for you.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="num">03</span>
+        <h3>Reminders, not surprises</h3>
+        <p>We send a friendly SMS reminder before your payment is due each month, so nothing is missed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rooms">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">Accommodation</span>
+      <h2>Rooms &amp; monthly pricing</h2>
+      <p>Final pricing is confirmed by the admin team based on room availability.</p>
+    </div>
+    <div class="room-grid">
+      <div class="room-card reveal">
+        <h3>Shared Room</h3>
+        <div class="price">Rs 8,000<span>/mo</span></div>
+        <ul>
+          <li>3–4 per room</li>
+          <li>Shared bathroom</li>
+          <li>Common dining area</li>
+        </ul>
+      </div>
+      <div class="room-card reveal">
+        <h3>Double Room</h3>
+        <div class="price">Rs 12,000<span>/mo</span></div>
+        <ul>
+          <li>2 per room</li>
+          <li>Shared bathroom</li>
+          <li>Study desk each</li>
+        </ul>
+      </div>
+      <div class="room-card reveal">
+        <h3>Single Room</h3>
+        <div class="price">Rs 18,000<span>/mo</span></div>
+        <ul>
+          <li>Private room</li>
+          <li>Attached bathroom</li>
+          <li>Quiet study space</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="apply" id="apply">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">Get started</span>
+      <h2>Apply for a room</h2>
+      <p>Share your details and our admin team will call you to confirm availability.</p>
+    </div>
+    <form class="apply-form reveal" id="applyForm">
+      <div class="field">
+        <label for="full_name">Full name</label>
+        <input type="text" id="full_name" name="full_name" placeholder="Your full name" required />
+      </div>
+      <div class="field">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+94 7X XXX XXXX" required />
+      </div>
+      <div class="field">
+        <label for="email">Email (optional)</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" />
+      </div>
+      <div class="field">
+        <label for="message">Message (optional)</label>
+        <textarea id="message" name="message" placeholder="Preferred room type, move-in date, etc."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit application</button>
+      <div class="form-status" id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Meepa Jumma Mosque Boarding &middot; <a href="/admin">Admin login</a>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

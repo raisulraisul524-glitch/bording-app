@@ -1,0 +1,51 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "username": "raisul",
+      "password_hash": "$2a$10$gnbgsn545/QrlTx28SsW8O1YECLJWXM4whJAg5/W9zVSrNcus2dKC",
+      "created_at": "2026-07-28T21:15:34.377Z"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password_hash": "$2a$10$teLwGs/hHUhrQ7ztMrzxTunhvxLWTC9AuoosXM8Lx82buXptWwDd6",
+      "created_at": "2026-07-28T21:34:12.193Z"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "full_name": "raisul",
+      "phone": "+94753264510",
+      "room_no": "b4",
+      "monthly_fee": 12000,
+      "join_date": "2026-07-28T21:26:44.123Z",
+      "active": 1,
+      "notes": "ADSD"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "member_id": 1,
+      "year": 2026,
+      "month": 7,
+      "amount": 12000,
+      "paid": 1,
+      "paid_date": "2026-07-28T21:27:08.840Z"
+    }
+  ],
+  "booking_applications": [
+    {
+      "id": 1,
+      "full_name": "sdfgxf",
+      "phone": "wdzefgxhcn",
+      "email": "raisulraisul524@gmaile.com",
+      "message": "WAFSEGZdhxf",
+      "status": "new",
+      "created_at": "2026-07-28T21:24:46.048Z"
+    }
+  ],
+  "sms_log": []
+}
